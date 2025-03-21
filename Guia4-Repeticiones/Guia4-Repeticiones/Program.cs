@@ -17,7 +17,6 @@ namespace Guia4_Repeticiones
             Objetivo: Escribir un programa que solicite la carga de un valor positivo 
             y nos muestre desde 1 hasta el valor ingresado de uno en uno
             */
-            /*
             int valor;
             int contador = 1;
             Console.WriteLine("Ingrese un numero");
@@ -27,13 +26,11 @@ namespace Guia4_Repeticiones
                 contador++;
             }
             Console.ReadLine(); 
-            */
             /*
              *2. Carga y suma de 10 valores 
              *Objetivo: Desarrollar un programa que permita la carga de 10 valores por teclado 
              *y nos muestre posteriormente la suma de los valores ingresados y su promedio.
             */
-            /*
             int cantIngresados = 1;
             int acumulador = 0;
             double promedio;
@@ -48,7 +45,6 @@ namespace Guia4_Repeticiones
             promedio = acumulador / 10;
             Console.WriteLine($"Promedio: {promedio}");
             Console.ReadLine();
-            */
             /*
              * 3. Fabrica de perfiles 
              * Objetivo: Una planta que fabrica perfiles de hierro posee un lote de piezas.
@@ -57,7 +53,6 @@ namespace Guia4_Repeticiones
              * comprendida en el rango de 1,20 y 1,30 son aptas. Imprimir por pantalla la cantidad
              * de piezas aptas que hay en el lote.
             */
-            /*
             int contador = 1;
             int cantPiezasAptas = 0;
             int cantPiezas; 
@@ -74,13 +69,11 @@ namespace Guia4_Repeticiones
                 contador++;
             }
             Console.WriteLine($"La cantidad de piezas aptas es {cantPiezasAptas}");
-            */
             /*
              * 4.Nota de alumnos 
              * Objetivo: Escribir un programa que solicite ingresar 10 notas de alumnos 
              * y nos informe cuantos tienen notas mayores o iguales a 7 y cuantos menores.   
             */
-            /*
             int notasMayoresIguales = 0, notasMenores = 0;
             int nota;
             int contador = 1;
@@ -100,13 +93,11 @@ namespace Guia4_Repeticiones
             }
             Console.WriteLine($"Cantidad de notas mayores o iguales a 7: {notasMayoresIguales}");
             Console.WriteLine($"Cantidad menores a 7: {notasMenores}");
-            */
             /*
              * Alturas de personas 
              * Objetivo: Se ingresan un conjunto de n alturas de personas por teclado. 
              * Mostrar la altura promedio de las personas 
             */
-            /*
             int contador = 1;
             int n;
             double altura;
@@ -121,7 +112,6 @@ namespace Guia4_Repeticiones
                 contador++;
             }
             Console.WriteLine("El promedio es: " + sumaAlturas / n);  
-            */
             /*
              * 7. Lectura de sueldos
              * Objetivo: En una empresa trabajan n empleados cuyos sueldos oscilan entre $100 y $500,
@@ -129,7 +119,6 @@ namespace Guia4_Repeticiones
              * cobran entre $100 y $300 y cuantos cobras mas de $300. Ademas el programa debera informar el importe 
              * que gasta la empresa en sueldos al personal.
             */
-            /*
             int n, sueldo, cuentaMenores300 = 0, cuentaMayores = 0, sumaSueldos = 0, contador = 1;
             Console.WriteLine("Ingrese cantidad de empleados");
             n = int.Parse(Console.ReadLine());
@@ -151,13 +140,11 @@ namespace Guia4_Repeticiones
             Console.WriteLine($"La empresa gasta en empleados:{sumaSueldos}");
             Console.WriteLine($"Sueldos mayores a 300: {cuentaMayores}");
             Console.WriteLine($"Sueldos menores de 300: {cuentaMenores300}");
-            */
             /*
              * Terminos de la serie
              * Objetivo: Realizar un programa que imprima 25 terminos de la serie 
              * 11 - 22- 33 - 44, etc. (No se ingresan valores por teclado) 
             */
-            /*
             int n = 25, numeroSerie = 0;
             int contador = 1;
             while (contador <= n)
@@ -166,13 +153,11 @@ namespace Guia4_Repeticiones
                 Console.WriteLine(numeroSerie);
                 contador++;
             }
-            */
             /*
              * 8. Multiplos de 8
              * Objetivo: Mostrar los multiplocs de 8 hasta el valor 500.
              * Debe aparecer en pantalla 8 - 16 - 24,etc
             */
-            /*
             int multiplo = 8;
             int contador = 2;
             while (multiplo <= 500)
@@ -181,14 +166,12 @@ namespace Guia4_Repeticiones
                 multiplo = 8 * contador;
                 contador++;
             }
-            */
             /*
              * 9. Listas de valores 
              * Objetivo: Realizar un programa que permita cargar dos listas de 15 valores cada una. 
              * Informar con un mensaje cual de las dos listas tiene un valor acumulado mayor
              * (mensajes "Lista 1 mayor", "Lista 2 mayor","Listas iguales").
             */
-            /*
             int sumaLista1 = 0, sumaLista2 = 0, contador = 1;
             int n = 15;
             int valor;
@@ -217,7 +200,6 @@ namespace Guia4_Repeticiones
             {
                 Console.WriteLine("Listas iguales");
             }
-            */
             /*
              * 10. Lectura de sueldos
              * Objetivo: Desarrollar un programa que permita cargar n numeros enteros
@@ -225,7 +207,6 @@ namespace Guia4_Repeticiones
              * Emplear el operador "%" en la condicion de la estructura condicional:
              *  if (valor%2==0) //Si el if da verdadero luego es par.
             */
-            /*
             int cantPares = 0, cantImpares = 0, contador = 1;
             int n, valor;
             Console.WriteLine("Ingrese cantidad de numeros a ingresar");
