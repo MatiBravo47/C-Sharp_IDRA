@@ -16,7 +16,6 @@ namespace Guia3P2
              * Producto esperado: Un programa que solicita al usuario dos numeros y una operacion, luego muestra el 
              * resultado de la operacion.
             */
-            /*
             Console.WriteLine("Ingrese el primer numero:");
             double numero1 = double.Parse(Console.ReadLine());
 
@@ -58,7 +57,6 @@ namespace Guia3P2
             }
 
             Console.ReadLine();            
-        */
             /*
              * Dias de la semana:
              * Objetivo: Desarrollar un programa que, dado un numero del 1 al 7,
@@ -66,7 +64,6 @@ namespace Guia3P2
              * Producto esperado: Un programa que solicita al usuario un numero del 1 al 7 
              * y muestra el dia de la semana correspondiente.
             */
-            /*
             int numeroDia;
             Console.WriteLine("Ingrese un numero del 1 al 7");
             numeroDia = int.Parse(Console.ReadLine());
@@ -99,7 +96,6 @@ namespace Guia3P2
                     break;
             }
             Console.ReadLine();
-            */
             /*
              * Conversion de califaciones a letras:
              * Objetivo: Escribir un programa que tome una calificacion numerica
@@ -107,7 +103,6 @@ namespace Guia3P2
              * Producto esperado: Un programa que solicita al usuario una calificacion 
              * numerica y muestra la calificacion en letra.
             */
-            /*
             int nota1;
             Console.WriteLine("Ingrese calificacion");
             nota1 = int.Parse(Console.ReadLine());
@@ -137,7 +132,6 @@ namespace Guia3P2
                     break;
             }
         Console.ReadLine();
-        */
             /*
              *Clasificacion de triangulos
              *Objetivo: Crear un programa que determine si un triangulo es equilatero,
@@ -150,7 +144,6 @@ namespace Guia3P2
              * Producto esperado: Un programa que solicita al usuario un numero 
              * de mes y muestra la estacion del anio correspondiente.
             */
-            /*
             int numeroMes;
             Console.WriteLine("Ingrese un mes");
             numeroMes = int.Parse(Console.ReadLine());
@@ -179,7 +172,6 @@ namespace Guia3P2
                     break;
             }
             Console.ReadLine();
-        */
             /*
              * Dias en un mes:
              * Objetivo: Escribir un programa que, dado un numero de mes, determine
